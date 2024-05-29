@@ -22,4 +22,12 @@
   <li><strong>[FROM]</strong> Crie um novo estágio de construção a partir de uma imagem base.</li>
   <li><strong>[HEALTHCHECK]</strong> Verifique a integridade de um contêiner na inicialização.</li>
   <li><strong>[LABEL]</strong> Adicione metadados a uma imagem.</li>
+  <li><strong>[MAINTAINER]</strong> Especifique o autor de uma imagem.</li>
+  <li><strong>[ONBUILD]</strong> Especifique instruções para quando a imagem for usada em um build.</li>
+  <li><strong>[RUN]</strong> Execute comandos de construção.</li>
+  <li><strong>[SHELL]</strong> Defina o shell padrão de uma imagem.</li>
+  <li><strong>[STOPSIGNAL]</strong> Especifique o sinal de chamada do sistema para sair de um contêiner.</li>
+  <li><strong>[USER]</strong> Defina o ID do usuário e do grupo.</li>
+  <li><strong>[VOLUME]</strong> Crie montagens de volume.</li>
+  <li><strong>[WORKDIR]</strong> Altere o diretório de trabalho.</li>
 </ul>
