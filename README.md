@@ -18,4 +18,6 @@
   <li><strong>[COPY]</strong> Copie arquivos e diretórios.</li>
   <li><strong>[ENTRYPOINT]</strong> Especifique o executável padrão.</li>
   <li><strong>[ENV]</strong> Defina variáveis ​​de ambiente.</li>
+  <li><strong>[EXPOSE]</strong> Descreva em quais portas seu aplicativo está escutando.</li>
+  <li><strong>[FROM]</strong> Crie um novo estágio de construção a partir de uma imagem base.</li>
 </ul>
