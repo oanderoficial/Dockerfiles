@@ -20,4 +20,6 @@
   <li><strong>[ENV]</strong> Defina variáveis ​​de ambiente.</li>
   <li><strong>[EXPOSE]</strong> Descreva em quais portas seu aplicativo está escutando.</li>
   <li><strong>[FROM]</strong> Crie um novo estágio de construção a partir de uma imagem base.</li>
+  <li><strong>[HEALTHCHECK]</strong> Verifique a integridade de um contêiner na inicialização.</li>
+  <li><strong>[LABEL]</strong> Adicione metadados a uma imagem.</li>
 </ul>
