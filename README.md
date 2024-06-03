@@ -31,3 +31,21 @@
   <li><strong>[VOLUME]</strong> Crie montagens de volume.</li>
   <li><strong>[WORKDIR]</strong> Altere o diretório de trabalho.</li>
 </ul>
+
+<h3>Exemplos: </h3>
+<strong>Fazendo o Build </strong>
+
+```bash
+docker build -t projeto:latest . 
+```
+<strong>Habilitando a porta 80 para trabalhar com WebService  </strong>
+```bash
+docker run -d -p 80:80 projeto:latest
+```
+<strong>Enviando a imagem para o DockerHub </strong>
+```bash
+docker tag projetologin:latest  oandersonbsilva/projeto:tag
+```
+```bash
+docker push oandersonbsilva/projetoupdate:tagh
+```
