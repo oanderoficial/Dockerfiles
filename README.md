@@ -38,7 +38,7 @@
 ```bash
 docker build -t projeto:latest . 
 ```
-<strong>Habilitando a porta 80 para trabalhar com WebService  </strong>
+<strong>Habilitando a porta 80 para trabalhar com WebService (bind de portas) </strong>
 ```bash
 docker run -d -p 80:80 projeto:latest
 ```
